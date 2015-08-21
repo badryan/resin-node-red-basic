@@ -15,6 +15,8 @@ module.exports = {
 
 
     functionGlobalContext: {
-        os:require('os'),
+        crc:require('crc'),
+        crc32:require('easy-crc32'),
+        os:require('os')
     },
 }
